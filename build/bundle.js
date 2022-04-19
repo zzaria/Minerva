@@ -1654,7 +1654,7 @@ var app = (function () {
     				} else if (val2 < 0) {
     					context.fillStyle = "#719c92";
     				} else {
-    					context.fillStyle = "#f3e2b7";
+    					context.fillStyle = context.strokeStyle = "#f3e2b7";
     				}
 
     				if (type == 6 || type == 8) {
@@ -1869,7 +1869,7 @@ var app = (function () {
     			t_1 = text(t_1_value);
     			option.__value = /*option*/ ctx[78].id;
     			option.value = option.__value;
-    			add_location(option, file, 1065, 5, 25710);
+    			add_location(option, file, 1065, 5, 25711);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1904,7 +1904,7 @@ var app = (function () {
     			t_1 = text(t_1_value);
     			option.__value = /*option*/ ctx[78].id;
     			option.value = option.__value;
-    			add_location(option, file, 1071, 5, 25938);
+    			add_location(option, file, 1071, 5, 25939);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1937,7 +1937,7 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			t_1 = text(/*speedup*/ ctx[11]);
-    			add_location(div, file, 1076, 3, 26040);
+    			add_location(div, file, 1076, 3, 26041);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2138,7 +2138,7 @@ var app = (function () {
     			t_1 = text(t_1_value);
     			option.__value = /*option*/ ctx[78].id;
     			option.value = option.__value;
-    			add_location(option, file, 1101, 4, 26629);
+    			add_location(option, file, 1101, 4, 26630);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -2174,7 +2174,7 @@ var app = (function () {
     			textarea = element("textarea");
     			attr_dev(textarea, "maxlength", "5000");
     			attr_dev(textarea, "class", "svelte-1a4ueem");
-    			add_location(textarea, file, 1114, 3, 26895);
+    			add_location(textarea, file, 1114, 3, 26896);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, textarea, anchor);
@@ -2236,7 +2236,7 @@ var app = (function () {
     			attr_dev(input, "max", "1");
     			attr_dev(input, "step", "0.01");
     			attr_dev(input, "class", "svelte-1a4ueem");
-    			add_location(input, file, 1105, 3, 26745);
+    			add_location(input, file, 1105, 3, 26746);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, input, anchor);
@@ -2302,7 +2302,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Sort";
     			attr_dev(button, "class", "svelte-1a4ueem");
-    			add_location(button, file, 1126, 4, 27190);
+    			add_location(button, file, 1126, 4, 27191);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2342,7 +2342,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Pause";
     			attr_dev(button, "class", "svelte-1a4ueem");
-    			add_location(button, file, 1124, 4, 27122);
+    			add_location(button, file, 1124, 4, 27123);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2382,7 +2382,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Resume";
     			attr_dev(button, "class", "svelte-1a4ueem");
-    			add_location(button, file, 1122, 4, 27038);
+    			add_location(button, file, 1122, 4, 27039);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2429,7 +2429,7 @@ var app = (function () {
     			t_1 = text(t_1_value);
     			attr_dev(li, "class", "svelte-1a4ueem");
     			toggle_class(li, "a", /*option*/ ctx[78].id === /*sortType*/ ctx[4]);
-    			add_location(li, file, 1140, 6, 27559);
+    			add_location(li, file, 1140, 6, 27560);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -2495,12 +2495,12 @@ var app = (function () {
     			t2 = space();
     			set_style(li, "font-weight", "bold");
     			set_style(li, "color", "#d3869b");
-    			add_location(li, file, 1136, 5, 27440);
+    			add_location(li, file, 1136, 5, 27441);
     			set_style(ul, "display", "inline-block");
     			set_style(ul, "list-style-type", "none");
     			set_style(ul, "padding", "0");
     			set_style(ul, "margin", "1rem");
-    			add_location(ul, file, 1133, 4, 27342);
+    			add_location(ul, file, 1133, 4, 27343);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, ul, anchor);
@@ -2753,15 +2753,15 @@ var app = (function () {
     			if (!src_url_equal(img_1.src, img_1_src_value = "https://media.discordapp.net/attachments/600494444722257930/964100517854847067/desktop.jpg")) attr_dev(img_1, "src", img_1_src_value);
     			attr_dev(img_1, "alt", "testimg");
     			set_style(img_1, "display", "none");
-    			add_location(img_1, file, 1041, 1, 24970);
+    			add_location(img_1, file, 1041, 1, 24971);
     			attr_dev(div0, "class", "container svelte-1a4ueem");
     			set_style(div0, "width", "70%");
     			set_style(div0, "margin-left", "auto");
-    			add_location(div0, file, 1047, 1, 25137);
-    			add_location(span0, file, 1049, 2, 25238);
+    			add_location(div0, file, 1047, 1, 25138);
+    			add_location(span0, file, 1049, 2, 25239);
     			attr_dev(label0, "for", "speedAdjust");
     			set_style(label0, "display", "inline");
-    			add_location(label0, file, 1051, 3, 25326);
+    			add_location(label0, file, 1051, 3, 25327);
     			attr_dev(input0, "id", "speedAdjust");
     			set_style(input0, "padding", "0");
     			attr_dev(input0, "type", "range");
@@ -2769,47 +2769,47 @@ var app = (function () {
     			attr_dev(input0, "max", "1");
     			attr_dev(input0, "step", "0.01");
     			attr_dev(input0, "class", "svelte-1a4ueem");
-    			add_location(input0, file, 1053, 3, 25403);
+    			add_location(input0, file, 1053, 3, 25404);
     			attr_dev(label1, "for", "displayType");
     			set_style(label1, "display", "inline");
-    			add_location(label1, file, 1062, 3, 25548);
+    			add_location(label1, file, 1062, 3, 25549);
     			attr_dev(select0, "id", "displayType");
     			attr_dev(select0, "class", "svelte-1a4ueem");
     			if (/*displayType*/ ctx[5] === void 0) add_render_callback(() => /*select0_change_handler*/ ctx[24].call(select0));
-    			add_location(select0, file, 1063, 3, 25617);
+    			add_location(select0, file, 1063, 3, 25618);
     			attr_dev(label2, "for", "audioType");
     			set_style(label2, "display", "inline");
-    			add_location(label2, file, 1068, 3, 25787);
+    			add_location(label2, file, 1068, 3, 25788);
     			attr_dev(select1, "id", "audioType");
     			attr_dev(select1, "class", "svelte-1a4ueem");
     			if (/*audioType*/ ctx[6] === void 0) add_render_callback(() => /*select1_change_handler*/ ctx[25].call(select1));
-    			add_location(select1, file, 1069, 3, 25851);
+    			add_location(select1, file, 1069, 3, 25852);
     			set_style(span1, "float", "right");
-    			add_location(span1, file, 1050, 2, 25295);
+    			add_location(span1, file, 1050, 2, 25296);
     			attr_dev(div1, "class", "container svelte-1a4ueem");
-    			add_location(div1, file, 1048, 1, 25212);
+    			add_location(div1, file, 1048, 1, 25213);
     			attr_dev(label3, "for", "size");
-    			add_location(label3, file, 1096, 2, 26413);
+    			add_location(label3, file, 1096, 2, 26414);
     			attr_dev(input1, "id", "size");
     			attr_dev(input1, "type", "number");
     			attr_dev(input1, "class", "svelte-1a4ueem");
-    			add_location(input1, file, 1097, 2, 26446);
+    			add_location(input1, file, 1097, 2, 26447);
     			attr_dev(label4, "for", "arrayType");
-    			add_location(label4, file, 1098, 2, 26500);
+    			add_location(label4, file, 1098, 2, 26501);
     			attr_dev(select2, "id", "arrayType");
     			attr_dev(select2, "class", "svelte-1a4ueem");
     			if (/*arrayType*/ ctx[2] === void 0) add_render_callback(() => /*select2_change_handler*/ ctx[27].call(select2));
-    			add_location(select2, file, 1099, 2, 26544);
+    			add_location(select2, file, 1099, 2, 26545);
     			attr_dev(button, "class", "svelte-1a4ueem");
-    			add_location(button, file, 1129, 3, 27239);
-    			add_location(div2, file, 1120, 2, 27007);
+    			add_location(button, file, 1129, 3, 27240);
+    			add_location(div2, file, 1120, 2, 27008);
     			attr_dev(div3, "style", "");
-    			add_location(div3, file, 1131, 2, 27291);
+    			add_location(div3, file, 1131, 2, 27292);
     			attr_dev(div4, "class", "container svelte-1a4ueem");
     			set_style(div4, "max-width", screen.width > 1000 ? "17.5%" : "100%", false);
-    			add_location(div4, file, 1092, 1, 26324);
+    			add_location(div4, file, 1092, 1, 26325);
     			attr_dev(main, "class", "svelte-1a4ueem");
-    			add_location(main, file, 1040, 0, 24962);
+    			add_location(main, file, 1040, 0, 24963);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3247,7 +3247,7 @@ var app = (function () {
     		: screen.width * 0.95,
     		height = Math.min(width, screen.height * 0.7);
 
-    	let size = scale(Math.random() ** 2, 100) + 3,
+    	let size = scale(Math.random() ** 2, 100) + 10,
     		speedAdjust = 0.5,
     		algorithm = 1,
     		arrayType = 1,
